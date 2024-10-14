@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: ojaswaghe/final-javaapp-project-ci:1
+        image: ojaswaghe/final-javaapp-project-ci:replaceImageTag
         ports:
         - containerPort: 8080
